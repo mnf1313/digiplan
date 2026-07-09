@@ -1,5 +1,5 @@
 /**
- * Unified sync engine for PlannerBridge.
+ * Unified sync engine for DigiPlan.
  *
  * Takes parsed events from the image processing pipeline and pushes them
  * to all connected calendars. Handles rate limits, deduplication, and error reporting.

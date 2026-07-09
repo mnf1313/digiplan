@@ -39,7 +39,7 @@ export const APIRoute = createAPIFileRoute("/api/calendar/google/callback")({
           <body style="font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f9fafb;">
             <div style="text-align: center; padding: 2rem;">
               <h1 style="color: #16a34a;">✅ Google Calendar connected!</h1>
-              <p style="color: #6b7280;">You can close this window and return to PlannerBridge.</p>
+              <p style="color: #6b7280;">You can close this window and return to DigiPlan.</p>
               <a href="/dashboard" style="display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: #4f46e5; color: white; text-decoration: none; border-radius: 0.5rem; font-weight: 600;">Go to Dashboard</a>
             </div>
           </body>

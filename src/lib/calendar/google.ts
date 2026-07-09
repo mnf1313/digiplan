@@ -1,5 +1,5 @@
 /**
- * Google Calendar integration for PlannerBridge.
+ * Google Calendar integration for DigiPlan.
  *
  * Handles OAuth 2.0 flow, event creation, and calendar listing
  * via the Google Calendar API v3.

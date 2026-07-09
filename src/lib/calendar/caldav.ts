@@ -1,5 +1,5 @@
 /**
- * Apple Calendar (CalDAV) integration for PlannerBridge.
+ * Apple Calendar (CalDAV) integration for DigiPlan.
  *
  * Implements a CalDAV client for iCloud calendars.
  * Handles: PROPFIND (discover calendars), PUT (create/update events),
@@ -53,7 +53,7 @@ function buildVEvent(event: CalDAVEvent): string {
   let ical = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//PlannerBridge//EN",
+    "PRODID:-//DigiPlan//EN",
     "BEGIN:VEVENT",
     `UID:${uid}`,
     `DTSTART:${start}`,
@@ -99,7 +99,7 @@ async function caldavRequest(
 
   const headers: Record<string, string> = {
     Authorization: `Basic ${auth}`,
-    "User-Agent": "PlannerBridge/1.0",
+    "User-Agent": "DigiPlan/1.0",
   };
 
   if (body) {

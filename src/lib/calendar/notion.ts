@@ -1,5 +1,5 @@
 /**
- * Notion API integration for PlannerBridge.
+ * Notion API integration for DigiPlan.
  *
  * Handles OAuth 2.0 flow, database discovery, and event creation
  * via the Notion API.
